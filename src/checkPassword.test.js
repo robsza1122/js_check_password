@@ -1,8 +1,8 @@
 'use strict';
 
-describe(`Function 'checkPassword':`, () => {
-  const checkPassword = require('./checkPassword');
+const checkPassword = require('./checkPassword');
 
+describe(`Function 'checkPassword':`, () => {
   it(`should be declared`, () => {
     expect(checkPassword).toBeInstanceOf(Function);
   });
